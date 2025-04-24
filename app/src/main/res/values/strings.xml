@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Lion School</string>
+    <string name="name">Lion\nSchool</string>
+    <string name="lion"> Lion </string>
+    <string name="school"> School</string>
     <string name="logo">Lion School logo</string>
     <string name="find_curse">Find your favorite course</string>
     <string name="slogan">Get to your destination faster, study at the best vocational school in Brazil. Be the best version of yourself.</string>
+    <string name="get_started">Get Started</string>
+    <string name="courses">Courses</string>
+    <string name="find">Find your course</string>
+
+
 </resources>
