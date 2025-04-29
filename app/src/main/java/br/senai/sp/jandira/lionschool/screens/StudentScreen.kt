@@ -1,5 +1,7 @@
 package br.senai.sp.jandira.lionschool.screens
 
+package br.senai.sp.jandira.lionschool.screens
+
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -43,7 +45,7 @@ import br.senai.sp.jandira.lionschool.R
 import br.senai.sp.jandira.lionschool.screens.model.CardCourses
 
 @Composable
-fun CoursesScreen(modifier: Modifier = Modifier){
+fun StudentScreen(modifier: Modifier = Modifier){
 
     var search= remember {
         mutableStateOf("")
@@ -58,7 +60,7 @@ fun CoursesScreen(modifier: Modifier = Modifier){
                 .fillMaxSize()
                 .padding(top = 60.dp, start = 15.dp, end = 15.dp),
 
-        ) {
+            ) {
             Column (
                 modifier = Modifier
                     .fillMaxWidth(),
@@ -134,14 +136,14 @@ fun CoursesScreen(modifier: Modifier = Modifier){
             )
             Row (
                 modifier = Modifier
-                .height(70.dp)
+                    .height(70.dp)
                     .padding(top = 13.dp, bottom = 13.dp)
 //                    .background(
 //                        color = Color.Yellow
 //                    )
-                    ,
+                ,
                 verticalAlignment = Alignment.CenterVertically
-                ){
+            ){
                 Image(
                     painter = painterResource(
                         R.drawable.list
@@ -205,5 +207,5 @@ fun CoursesScreen(modifier: Modifier = Modifier){
 @Preview(showSystemUi = true)
 @Composable
 private fun CoursesScreenPreview(){
-    CoursesScreen()
+    StudentScreen()
 }

@@ -9,6 +9,16 @@
     <string name="get_started">Get Started</string>
     <string name="courses">Courses</string>
     <string name="find">Find your course</string>
+    <string name="ds">DS</string>
+    <string name="rds">RDS</string>
+    <string name="ele">ELE</string>
+    <string name="d_s">Desenvolvimento de Sistemas</string>
+    <string name="r_d_s">Redes de Computadores</string>
+    <string name="e_l_e">Eletroeletrônica</string>
+    <string name="learn_ds">Learn to develop web and mobile applications.</string>
+    <string name="learn_rds">Learn to design communication networks.</string>
+    <string name="learn_ele">Learn to design communication networks.</string>
+    <string name="semesters">3 semesters</string>
 
 
 </resources>
